@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Mulish', sans-serif;
+}
+.return{
+    display: flex;
+    justify-content: start;
+    font-size: 1.5rem;
+    width:73px;
+    background-color: #D00D;
+}
+a{
+    text-decoration: none;
+    color: #000F;
+}
+/* ul, ol{
+    list-style: none;
+} */
+
+main{
+    font-family: 'Mulish', sans-serif;
+}
+.title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    background-color: #D00D;
+}
+.nav-container{
+    padding: 1%;
+}
+.list-container{
+    padding-left: 2%;
+}
+li{
+    padding-top: 0.5%;
+}

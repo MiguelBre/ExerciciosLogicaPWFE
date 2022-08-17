@@ -12,9 +12,9 @@ function ordenar (){
         
         if (sexo == 'M' || sexo == 'F') {
             if (sexo == 'M') {
-                result.innerHTML = `Iilmo. Sr. ${nome}`
+                result.innerHTML = `Ilmo. Sr. ${nome}`
             }else{
-                result.innerHTML = `Iilma. Sra. ${nome}`
+                result.innerHTML = `Ilma. Sra. ${nome}`
             }
         }else{
             result.innerHTML = `O sexo ${sexo} é inválido`
